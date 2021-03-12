@@ -11,6 +11,8 @@ ScenarioController: Launch N number of parallel threads, to allocate randomly be
 Additionally you can intermittently craete Pinned objects in the heap. 
 See sample usage here:
 
+![image](https://user-images.githubusercontent.com/6884474/110701319-1479bc80-8202-11eb-8b42-cf3de937a216.png)
+
 AllocateController: Performs "allocationCount" number of allocations with "allocationSize" size of allocations of type "allocType". "afterAlloc" options gives you the option to root the objects or not.
 
 ![image](https://user-images.githubusercontent.com/6884474/110933959-750e1400-833e-11eb-8e17-7b1ed505a8f4.png)
