@@ -8,8 +8,8 @@ We have 3 controllers:
 
 
 ScenarioController: Launch N number of parallel threads, to allocate randomly between size of “MinAlloc” & “MaxAlloc” , “loopCount” number of times. Some of these are rooted.
-Additionally you can intermittently craete Pinned objects in the heap. See sample usage here: 
-![image](https://user-images.githubusercontent.com/6884474/110701319-1479bc80-8202-11eb-8b42-cf3de937a216.png)
+Additionally you can intermittently craete Pinned objects in the heap. 
+See sample usage here:
 
 AllocateController: Performs "allocationCount" number of allocations with "allocationSize" size of allocations of type "allocType". "afterAlloc" options gives you the option to root the objects or not.
 
